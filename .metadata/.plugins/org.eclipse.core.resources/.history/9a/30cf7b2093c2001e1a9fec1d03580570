@@ -1,0 +1,36 @@
+/*
+ * RCC_Config.c
+ *
+ *  Created on: Feb 3, 2024
+ *      Author: ravis
+ */
+
+#include "RCC_Config.h"
+
+
+
+
+
+void SysClockConfig(void)
+{
+
+
+/*
+ * *********************************************************
+ * steps followed for SYSCLOCKCONFIG
+ * **********************************************************
+ * 1.enable the HSE and WAIT for the HSE TO become ready
+ * 2.set the POWER ENABLE CLOCK AND VOLTAGE REGULATOR
+ * 3.configure the FLASH PREFETCH and the LATENCY related setting
+ * 4.configure the PRESCALARS PCLK ,PCLK1 ,PCLK2
+ * 5.configure the main PLL
+ * 6.enable the PLL and wait for it to become ready
+ * 7.select the clock source and wait for it to be set
+ * ***********************************************************
+ *
+ */
+
+
+
+
+}

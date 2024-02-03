@@ -1,0 +1,10 @@
+
+#include <stdint.h>
+#include "STM32F401xE.h"
+
+
+int main(void)
+{
+    /* Loop forever */
+	for(;;);
+}
